@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "top": "contenttweaker:blocks/living_machine_hull",
+      "bottom": "contenttweaker:blocks/living_machine_casing",
+      "side": "contenttweaker:blocks/living_machine_casing"
+    },
+    "model": "minecraft:cube_bottom_top"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": {
+      "transform": "forge:default-block"
+    }
+  }
+}
