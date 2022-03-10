@@ -1,5 +1,6 @@
 #priority 999
 import mods.gregtech.recipe.RecipeMap;
+import mods.gregtech.recipe.RecipeMapBuilder;
 import mods.jei.JEI.removeAndHide as h;
 
 //GT Machine RecipeMap Names
@@ -57,7 +58,6 @@ global vacuumFreezer as RecipeMap = RecipeMap.getByName("vacuum_freezer");
 global wireMill as RecipeMap = RecipeMap.getByName("wiremill");
 global ulvCokeOven as RecipeMap = RecipeMap.getByName("ulv_coke_over");
 global ulvAssemblingMachine as RecipeMap = RecipeMap.getByName("ulv_assembling_machine");
-
 //----------------------------GT TOOL Ore Dict------------------------------------
 
 //Wrench
